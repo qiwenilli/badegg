@@ -1,0 +1,55 @@
+.container {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(210, 190, 229);
+    position: absolute;
+
+    margin-left: 50px
+}
+
+.resize-drag {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    /* border-radius: 8px; */
+    touch-action: none;
+    /* This makes things *much* easier */
+    box-sizing: border-box;
+    width: 400px;
+    height: 120px;
+
+    background-color: blue;
+    /* 
+    left: 50px;
+    top: 50px; */
+
+    position: absolute;
+}
+
+.border {
+    border-style: dashed;
+    border-width: 1px;
+    position: absolute;
+}
+
+.rotatebox {
+    width: 20px;
+    height: 20px;
+    background-color: #8bf006;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABp0lEQVQ4T63Uz4tPYRTH8dcgP4oQC5MpJAt/gI0kFrJBkaamZEEWRFJY+FFIIqEpS2rS1IhmZmOLP4CElBUlkvzIgkKETh16+vbc71zl1t3ce573c87nc87p8Z+fngpvIbZiHWbhFybhE+7iJl7kuQV4UzJK4BQcxmpcxy28L4LnYiMGcB+ncRXbasB5uIYLuNNChbj0BD5jUw24Nst43gK2CEOYgb58/x6radiC2Rzyr8DJOIDFOIW3negSOBuXMT0Ff1QE92M3viLM246DqWO4Xy15Bz7gNkbS8Z34iH2p1RLsxf68OLI8gh9/iGWGy3ERWxCljeEejuIM3uFSR4kzsQfns191argGx7EhD47iGB5gV7r7vQMaUq3HjfheM6WExv9xHMLjLvZH2z2NqWlyuYSGCZHFqy7AGM3w4Eq3tglo6BeT8KVFc4ZRgxP14UqcbAFdgaWxA5qAUzNgWZYSG2dzQ5bTMJxL4lsNGFskyn1YvE+yqWuDMYizeF1zeU6urVUtNOtNOc7hWa2x41s0dGQTTfyzC3R+QmJqXjaNXoukJg75DX23URV4Q25MAAAAAElFTkSuQmCC), auto;
+    opacity: 0;
+}
+
+.resizebox {
+    width: 20px;
+    height: 20px;
+    background-color: #fff116;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABTUlEQVQ4T7XUvUoDQRQF4HuG5Cls0m2YWXtBK0H8KSJIRBAtbSztbMRerWwUxEpBsQgKEhstJDaCjexe8g6CTxD2yMIqa9yEjKtTzlw+zp0/WGu3jTGzUjBIPsZxvFO0NmgOzrkOgEkRORKRy77C9yiKXr1BEemIyCbJNVW98QH6az8THiRJ8gbgluR6GfQLjKKoZa2dKot+A9P4Gdomuayqd77t/wAzdBpAi+SKL4owDPd6vd5Ft9t9yaex1qboNclFVX0YNSmGFVpr5wDsxnE88SfgqEi+bmjCfwedc/ck91W1PfDp+aTI9vSq6KCCIAiq1WrDu+VBaBiGSyS3vMHsnjYAnJOcV9X0H5BSYA49I7mQoqXBDG0COCU5Y4wZ+3XLfS+qaYw5IXksIpPee1iv12uVSqWWR0muAtgg+eQNOucOAYwXXbckSZ4/AGJ0sLQZ8327AAAAAElFTkSuQmCC), auto;
+    opacity: 0;
+}
