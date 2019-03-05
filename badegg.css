@@ -4,32 +4,25 @@
     background-color: rgb(210, 190, 229);
     position: absolute;
 
-    margin-left: 50px
+    margin-left: 150px
 }
 
 .resize-drag {
     color: white;
     font-size: 20px;
     font-family: sans-serif;
-    /* border-radius: 8px; */
     touch-action: none;
-    /* This makes things *much* easier */
     box-sizing: border-box;
-    width: 400px;
-    height: 120px;
-
+    /* width: 400px;
+    height: 120px; */
     background-color: blue;
-    /* 
-    left: 50px;
-    top: 50px; */
+    cursor: move;
+    border-width: 1px;
 
     position: absolute;
 }
-
-.border {
-    border-style: dashed;
-    border-width: 1px;
-    position: absolute;
+.resize-drag:hover{
+    border:1px dashed #fff; 
 }
 
 .rotatebox {
@@ -53,3 +46,10 @@
     cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABTUlEQVQ4T7XUvUoDQRQF4HuG5Cls0m2YWXtBK0H8KSJIRBAtbSztbMRerWwUxEpBsQgKEhstJDaCjexe8g6CTxD2yMIqa9yEjKtTzlw+zp0/WGu3jTGzUjBIPsZxvFO0NmgOzrkOgEkRORKRy77C9yiKXr1BEemIyCbJNVW98QH6az8THiRJ8gbgluR6GfQLjKKoZa2dKot+A9P4Gdomuayqd77t/wAzdBpAi+SKL4owDPd6vd5Ft9t9yaex1qboNclFVX0YNSmGFVpr5wDsxnE88SfgqEi+bmjCfwedc/ck91W1PfDp+aTI9vSq6KCCIAiq1WrDu+VBaBiGSyS3vMHsnjYAnJOcV9X0H5BSYA49I7mQoqXBDG0COCU5Y4wZ+3XLfS+qaYw5IXksIpPee1iv12uVSqWWR0muAtgg+eQNOucOAYwXXbckSZ4/AGJ0sLQZ8327AAAAAElFTkSuQmCC), auto;
     opacity: 0;
 }
+
+.edittext{
+    cursor: text;
+    outline: none;
+}
+
+
